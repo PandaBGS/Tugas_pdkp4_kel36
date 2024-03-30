@@ -29,7 +29,7 @@ def main():
     rata_rata = hitung_rata_rata(total_nilai, jumlah_nilai)
 
     # pengkondisian if else
-    if rata_rata >= 70:
+    if rata_rata >= 60:
         print("Selamat, Anda lulus!")
     else:
         print("Maaf, Anda tidak lulus.")
